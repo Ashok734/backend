@@ -94,11 +94,10 @@
     </div>
     
     <!--[Contant Panal]-->
+   <!--[Contant Panal]-->
     <div class="contant-panal">
-      <div class="list-titel">
-        <h2>Features Equipments</h2>
-      </div>
-             <div class="edit-list-head">
+      <Div class="either-row">
+        <div class="edit-list-head">
           <div class="row">
             <div class="col-md-2">
               <div class="edit-lt-img"><img src="images/784_KB-U11-R13-1.jpg" alt="#" class="img-fluid"></div>
@@ -122,7 +121,7 @@
             <div class="secur-list">
               <ul>
                 <li><a href="listing-details.html">Listing Details</a></li>
-                <li><a href="features-equipments.html"style="background-color: #1899cd;color: #fff;">Features Equipments</a></li>
+                <li class="active"><a href="features-equipments.html" style="background-color: #1899cd;color: #fff;">Features Equipments</a></li>
                 <li ><a href="rates-pricing.html">Rates Pricing</a></li>
                 <li><a href="photos.html">Photos</a></li>
                 <li><a href="availability-setting.html">Availability Booking</a></li>
@@ -133,26 +132,29 @@
             </div>
           </div>
           <div class="col-md-9">
-            <div class="basic-colam">
-              <ul>
-                <li class="step">Technicals</li>
+  <div class="basic-colam">
+    <ul>
+     <li class="step">Technicals</li>
                 <li class="step">Features</li>
                 <li class="step">Equipments</li>
-              </ul>
-            </div>
-            <div class="base-data">       
-                <form id="regForm">
-                  <div class="form-inline manufactur ">
-                    <div class="col-md-4 col-sm-6">
-                      <label class="sr-label">Length<sup>*</sup></label>
+    </ul>
+  </div>
+  <div class="base-data">
+   <form id="regForm" action="rates-pricing.html">
+    <div class="tab ">
+    
+    
+  <div class="form-inline manufactur ">
+                <Div class="col-md-6 col-sm-6">
+                  <label class="sr-label">Length<sup>*</sup></label>
                   <div class="input-group mb-2 mr-sm-2">
                     <div class="input-group-prepend">
                       <div class="input-group-text">inches</div>
                     </div>
                     <input step="0.01" min="0.00" required type="number" value="600.0" name="listing[length]"  class="form-control">
                   </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
+                </Div>
+                <Div class="col-md-6 col-sm-6">
                   <label class="sr-label">Hight<sup>*</sup></label>
                   <div class="input-group mb-2 mr-sm-2">
                     <div class="input-group-prepend">
@@ -160,113 +162,521 @@
                     </div>
                     <input step="0.01" min="0.00" required type="number" value="1200.0" name="listing[length]"  class="form-control">
                   </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                      <label class="sr-label">Weigth<sup>*</sup></label>
+                </Div>
+                <Div class="col-md-6 col-sm-6">
+                  <label class="sr-label">Weigth<sup>*</sup></label>
                   <div class="input-group mb-2 mr-sm-2">
                     <div class="input-group-prepend">
                       <div class="input-group-text">Lbs</div>
                     </div>
                     <input step="0.01" min="0.00" required type="number" value="1200.0" name="listing[length]"  class="form-control">
                   </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                      <label class="sr-label">Draft<sup>*</sup></label>
+                </Div>
+                <Div class="col-md-6 col-sm-6">
+                  <label class="sr-label">Draft<sup>*</sup></label>
                   <div class="input-group mb-2 mr-sm-2">
                     <div class="input-group-prepend">
                       <div class="input-group-text">inches</div>
                     </div>
                     <input step="0.01" min="0.00" required type="number" value="36.0" name="listing[length]"  class="form-control">
                   </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                       <label class="sr-label">No. of Engines<sup>*</sup></label>
+                </Div>
+                <Div class="col-md-6 col-sm-6">
+                  <label class="sr-label">No. of Engines<sup>*</sup></label>
                   <div class="input-group mb-2 mr-sm-2">
                     <div class="input-group-prepend">
                       <div class="input-group-text"><i class="fa fa-building"></i></div>
                     </div>
                     <input step="0.01" min="0.00" required type="number" value="1" name="listing[length]"  class="form-control">
                   </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                      <label class="sr-label">Engine Power Horsepower<sup>*</sup></label>
+                </Div>
+                <Div class="col-md-6 col-sm-6">
+                  <label class="sr-label">Engine Power Horsepower<sup>*</sup></label>
                   <div class="input-group mb-2 mr-sm-2">
                     <div class="input-group-prepend">
                       <div class="input-group-text">HP</div>
                     </div>
                     <input step="0.01" min="0.00" required type="number" value="1000.0" name="listing[length]"  class="form-control">
                   </div>
-                    </div>
-                     <div class="col-md-4 col-sm-6">
-                      <label class="sr-label">Engine Brand</label>
+                </Div>
+                <Div class="col-md-6 col-sm-6">
+                  <label class="sr-label">Engine Brand</label>
                   <div class="input-group mb-2 mr-sm-2">
                     <div class="input-group-prepend">
                       <div class="input-group-text"><i class="fa fa-building"></i></div>
                     </div>
                     <input type="text" class="form-control" id="" placeholder="NA" required>
                   </div>
-                    </div>
-                     <div class="col-md-4 col-sm-6">
-                      <label class="sr-label">Engine Model </label>
+                </Div>
+                <Div class="col-md-6 col-sm-6">
+                  <label class="sr-label">Engine Model </label>
                   <div class="input-group mb-2 mr-sm-2">
                     <div class="input-group-prepend">
                       <div class="input-group-text"><i class="fab fa-product-hunt"></i></div>
                     </div>
                     <input type="text" class="form-control" id="" placeholder="NA" required>
                   </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6" style="visibility: hidden;">
-                   <label class="sr-label">Engine Model </label>
-                  <div class="input-group mb-2 mr-sm-2">
-                    <div class="input-group-prepend">
-                      <div class="input-group-text"><i class="fab fa-product-hunt"></i></div>
-                    </div>
-                    <input type="text" class="form-control" id="" placeholder="NA" required>
-                  </div>
-                </div> <!-- col -->
-                <div class="col-md-3 col-sm-6">
+                </Div>
+                <Div class="col-md-6 col-sm-6">
                   <div class="form-check form-check-inline no-fx">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                     <label class="form-check-label" for="inlineRadio1">Inboard Engine? </label>
                   </div>
-                </div> <!-- col -->
-                <div class="col-md-3 col-sm-6">
                   <div class="form-check form-check-inline no-fx">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                     <label class="form-check-label" for="inlineRadio2">Outboard Engine?</label>
                   </div>
-                </div> <!-- col -->
-                <div class="col-md-3 col-sm-6">
+                </Div>
+                <Div class="col-md-6 col-sm-6">
                   <div class="form-check form-check-inline no-fx">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option1">
                     <label class="form-check-label" for="inlineRadio3">Single Engine? </label>
                   </div>
-                </div> <!-- col -->
-                <div class="col-md-3 col-sm-6">
                   <div class="form-check form-check-inline no-fx">
-                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option2">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option2">
                     <label class="form-check-label" for="inlineRadio4">Twin Engine?</label>
                   </div>
-                </div> <!-- col -->
-
-                  </div>
-                  <div style="overflow:auto;">
+                </Div>
+              </div>
+<div style="overflow:auto;">
               <div class="stap-btn">
                 <button type="button" id="prevBtn" onclick="window.location.href='http://pixxeluacademy.com/dev/katerblue-dashboard/listing-details.html'" >Previous</button>
                 <button type="button" id="nextBtn1" onclick="nextPrev(1)">Next</button>
                 <button type="button" id="nextBtn" onclick="nextPrev(1)">Save &  Exit</button>
               </div>
             </div>
-                </form>
+    </div>
+    <div class="tab">
+ 
+      <div class="form-inline manufactur sales-degint ">
+                  <Div class="col-md-6 col-sm-6">
+                    <label class="sr-label">Capacity<sup>*</sup></label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-building"></i></div>
+                      </div>
+                      <input step="0" min="0.0" required type="number" value="10.0" name="listing[length]"  class="form-control">
+                    </div>
+                  </Div>
+                  <Div class="col-md-6 col-sm-6">
+                    <label class="sr-label">Authorized Capacity<sup>*</sup></label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fab fa-product-hunt"></i></div>
+                      </div>
+                      <input step="0" min="0.00" required type="number" value="10" name="listing[length]"  class="form-control">
+                    </div>
+                  </Div>
+                  <Div class="col-md-6 col-sm-6">
+                    <label class="sr-label">No Of Cabin<sup>*</sup></label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-building"></i></div>
+                      </div>
+                      <input step="0" min="0.00" required type="number" value="3" name="listing[length]"  class="form-control">
+                    </div>
+                  </Div>
+                  <Div class="col-md-6 col-sm-6">
+                    <label class="sr-label">No Of Berth<sup>*</sup></label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fab fa-product-hunt"></i></div>
+                      </div>
+                      <input step="0" min="0.00" required type="number" value="6" name="listing[length]"  class="form-control">
+                    </div>
+                  </Div>
+                  <Div class="col-md-6 col-sm-6">
+                    <label class="sr-label">No. of Toilet<sup>*</sup></label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-building"></i></div>
+                      </div>
+                      <input step="0" min="0.00" required type="number" value="" name="listing[length]"  class="form-control">
+                    </div>
+                  </Div>
+                  <Div class="col-md-6 col-sm-6"> </Div>
+                  <div class="empty-spase"></div>
+                  <Div class="col-md-6 col-sm-6 dsy"> <span class="infa">Okay For Infants (< 2 Years)?</span> </Div>
+                  <Div class="col-md-6 col-sm-6 dsy text-center">
+                    <button type="button" class="btn btn-outline-success" style="border: 2px solid #eeeeee">Yes</button>
+                    <button type="button" class="btn btn-outline-danger no_btn" style="border: 2px solid #eeeeee">No</button>
+                  </Div>
+                  <Div class="col-md-6 col-sm-6 dsy"> <span class="infa">Okay For Childrens (< 12 Years)?</span> </Div>
+                  <Div class="col-md-6 col-sm-6 dsy text-center">
+                    <button type="button" class="btn btn-outline-success" style="border: 2px solid #eeeeee">Yes</button>
+                    <button type="button" class="btn btn-outline-danger no_btn" style="border: 2px solid #eeeeee">No</button>
+                  </Div>
+                </div>
+  <div class="stap-btn">
+                <button type="button" id="prevBtn" onclick="nextPrev(-1)" >Previous</button>
+                <button type="button" id="nextBtn1" onclick="nextPrev(1)">Next</button>
+                <button type="button" id="nextBtn" onclick="nextPrev(1)" class="desktop-dis">Save &  Exit</button>
+                <button type="button" id="nextBtnsav" onclick="nextPrev(1)" class="mob-dis">Save &  Exit</button>
               </div>
-              
-              
+    </div>
+    <div class="tab">
+       <div class="form-inline manufactur ">
+                  <div class="btn-box">
+                    <Div class="col-md-6 col-sm-6 dsy"> <span class="infa">Pets Allowed</span> </Div>
+                    <Div class="col-md-6 col-sm-6 dsy text-center">
+                      <button type="button" class="btn btn-outline-success" style="border: 2px solid #eeeeee">Yes</button>
+                      <button type="button" class="btn btn-outline-danger no_btn" style="border: 2px solid #eeeeee">No</button>
+                    </Div>
+                  </div>
+                  <div class="btn-box">
+                    <Div class="col-md-6 col-sm-6 dsy"> <span class="infa">Smoking Aboard?</span> </Div>
+                    <Div class="col-md-6 col-sm-6 dsy text-center">
+                      <button type="button" class="btn btn-outline-success" style="border: 2px solid #eeeeee">Yes</button>
+                      <button type="button" class="btn btn-outline-danger no_btn" style="border: 2px solid #eeeeee">No</button>
+                    </Div>
+                  </div>
+                  <div class="btn-box">
+                    <Div class="col-md-6 col-sm-6 dsy"> <span class="infa">Linens Provided?</span> </Div>
+                    <Div class="col-md-6 col-sm-6 dsy text-center">
+                      <button type="button" class="btn btn-outline-success" style="border: 2px solid #eeeeee">Yes</button>
+                      <button type="button" class="btn btn-outline-danger no_btn" style="border: 2px solid #eeeeee">No</button>
+                    </Div>
+                  </div>
+                  <div class="btn-box">
+                    <Div class="col-md-6 col-sm-6 dsy"> <span class="infa">Towels Provided?</span> </Div>
+                    <Div class="col-md-6 col-sm-6 dsy text-center">
+                      <button type="button" class="btn btn-outline-success" style="border: 2px solid #eeeeee">Yes</button>
+                      <button type="button" class="btn btn-outline-danger no_btn" style="border: 2px solid #eeeeee">No</button>
+                    </Div>
+                  </div>
+                  <Div class="cribs-checks">
+                    <div class="btn-box">
+                      <Div class="col-md-6 col-sm-6">
+                        <h4 class="out-titl">Outdoor Equipments</h4>
+                        <div class="btn-box form-sd">
+                          <div class="row">
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Awning</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Bathing Ladder</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3">Dining Table</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">Bow Sundeck</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Aft Sundeck </label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">Deck Shower</label>
+                            </div>
+                          </div>
+                        </div>
+                      </Div>
+                      <Div class="col-md-6 col-sm-6">
+                        <h4 class="out-titl">SANITARY FACILITIES </h4>
+                        <div class="btn-box form-sd">
+                          <div class="row">
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Cold Water</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Hot Water</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3">Bathroom</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">Toilet</label>
+                            </div>
+                          </div>
+                        </div>
+                      </Div>
+                    </div>
+                    <div class="btn-box">
+                      <Div class="col-md-6 col-sm-6">
+                        <h4 class="out-titl">NAVIGATION EQUIPMENTS</h4>
+                        <div class="btn-box form-sd">
+                          <div class="row">
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Electric Windlass</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">GPS</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3">Depth Sounder</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">VHF</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Climate Control </label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">Chart Plotter</label>
+                            </div>
+                          </div>
+                        </div>
+                      </Div>
+                      <Div class="col-md-6 col-sm-6">
+                        <h4 class="out-titl">KITCHEN EQUIPMENTS</h4>
+                        <div class="btn-box form-sd">
+                          <div class="row">
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Oven/Cooker</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Refrigerator</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3">Freezer</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">Sink</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Dining Table </label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">MIcrowave</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Electric Kettle</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Dishwasher</label>
+                            </div>
+                          </div>
+                        </div>
+                      </Div>
+                    </div>
+                    <div class="btn-box">
+                      <Div class="col-8">
+                        <h4 class="out-titl">ON WATER EQUIPMENTS</h4>
+                        <div class="btn-box form-sd">
+                          <div class="row">
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Flippers, Masks And Snorkels</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2"> Fishing Tackle </label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3">Scuba Diving Equipment</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">Water Skis And Accessories Provided</label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Wakeboard And Accessories Provided </label>
+                            </div>
+                            <div class="form-check col-lg-4 col-md-4">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Tow Buoy And Accessories Provided </label>
+                            </div>
+                          </div>
+                        </div>
+                      </Div>
+                      <Div class="col-4">
+                        <h4 class="out-titl">DIGITAL EQUIPMENTS</h4>
+                        <div class="btn-box form-sd">
+                          <div class="row">
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Wifi</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Bluetooth</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3">Satelite TV</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">Smart TV</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Computer </label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">Speakers</label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Sound System </label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">CD Player</label>
+                            </div>
+                          </div>
+                        </div>
+                      </Div>
+                    </div>
+                    <div class="btn-box">
+                      <Div class="col-12">
+                        <h4 class="out-titl">OTHER EQUIPMENTS</h4>
+                        <div class="btn-box form-sd">
+                          <div class="row">
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Wheel Steering</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Bar</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3">Fishing Gear</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> BBQ</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Autopilot </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Center Cockpit</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Climate Control</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Generator </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Inverter</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Bow Thrusters</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Dodger </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Air Condition</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Common Seating</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Bimini </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Trailerable </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">Watersports Equipments</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Dinghy </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Clothes Rack </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4">Children's Cribs</label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Trash Cans </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Wardrobe/closet </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox3"> Fire Extinguisher </label>
+                            </div>
+                            <div class="form-check col-lg-3 col-md-3">
+                              <input class="form-check-input" type="checkbox" id="" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox4"> Smoke Alarm </label>
+                            </div>
+                          </div>
+                        </div>
+                      </Div>
+                    </div>
+                    <Div class="col-12">
+                      <label class="sr-label">Further Features/Equipments you would want to include (Optional)</label>
+                      <div class="input-group mb-2 mr-sm-2">
+                        <textarea class="form-control sales-root" id="" rows="15" placeholder="Type Chartering / Sales rules here..."></textarea>
+                      </div>
+                    </Div>
+                  </Div>
+                </div>
+                <div class="stap-btn">
+                <button type="button" id="prevBtn" onclick="nextPrev(-1)" >Previous</button>
+                <button type="button" id="nextBtn1" onclick="window.location.href='http://pixxeluacademy.com/dev/katerblue-dashboard/rates-pricing.html'" >Next</button>
+                <button type="button" id="nextBtn" onclick="nextPrev(1)" class="desktop-dis">Save &  Exit</button>
+                <button type="button" id="nextBtnsav" onclick="nextPrev(1)" class="mob-dis">Save &  Exit</button>
+              </div>
+    </div>
+      </form>
+  </div>
+   
+  
+  
+
+</div>
+        </div>
+      </Div>
+    </div>
              
     <!--[Contant Panal]--> 
     
   </div>
 </div>
-
+    <script src="js/tabs-js.js"></script>
    <script src="js/owl.carousel.min.js"></script>
    <script src="js/main.js"></script>
    <script src="js/wow.min.js"></script>

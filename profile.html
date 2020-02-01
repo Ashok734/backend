@@ -134,7 +134,50 @@
                    <div class="season-inn">
                    <span>Photo of the Season</span>
                    <h2>CONTEST</h2>
-                   <a href="#">Learn more to participate</a>
+                   <div class="p-season">
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="z-index: 999999;position: relative;">
+  Learn more to participate
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+      <div class="row">
+        <div class="col-md-12">
+          <p>The featured photo of the WINNER of ‘Photo of the Season’ contest, eligible for a week’s free boat charter, will be displayed here.</p>
+          <p>Why not participate in our photo of the season competition? Submit any photos relating to yachting and boating (You do not have to have chartered a boat from KaterBlue to participate!). The photo should be funny, beautiful, memorable or simply meaningful. This should be accompanied by a paragraph detailing where the photo was taken, and little background information explaining why it is close to your heart. This competition is open to all registered users of KaterBlue and there is no registration cost if you are not yet a member. You must register your profile or a boat (or boath) and submit at leaste one photo and your story. The top ten photos will be listed here and one winner of the "Photo of the Season" will be announced here. All will be informed by email. The submitter of the best photo of the season will win a week's boat charter in a well sought-after destination free of charge.</p>
+          <p>The deadline for summer 2019 submissions ends <b>October 14th 2019.</b></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="upload-img">
+            <label>Upload Photo</label><br>
+ <input type="file" id="choose" multiple="multiple" />
+    <br>
+    <div id="uploadPreview"></div>
+    <p>(Minimum Resolution 1024px X 768px)*</p>
+    <label>Give This Photo A Title*</label>
+    <input placeholder="Eg: Shot on a breathtaking mediterranean coast in lbiza" class="form-control" type="text" name="user[contests_attributes][0][title]" id="user_contests_attributes_0_title">
+    <label>What's The Story With This Picture ? *</label>
+    <textarea placeholder="Please tell us little about where the photo was taken, and little background information explaining why it is close to your heart" style="width: 100%; border: 1px solid lightgray;" rows="8" class="form-control" name="user[contests_attributes][0][description]" id="user_contests_attributes_0_description" spellcheck="false"></textarea>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Participate</button>
+      </div>
+    </div>
+  </div>
+</div>
+                   </div>
                    </div>
                    </div>
                    
@@ -153,9 +196,6 @@
     
     <div class="contant-panal">
  <div class="tab-content" id="nav-tabContent">
- 
- 
-
 <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-home-tab">
                      
                      

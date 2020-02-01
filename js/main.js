@@ -74,3 +74,8 @@ $(".dsy button").addClass("active");
  $(function () {
   $('[data-toggle="popover"]').popover();
 });
+
+
+ // tabs
+ 
+  

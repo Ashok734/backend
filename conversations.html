@@ -112,7 +112,7 @@
     <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">History</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Archiv</a>
+    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Starred</a>
   </li>
 </ul>
 <hr style="margin-top: -17px;">
@@ -272,14 +272,14 @@
 </div>
           </div><!-- post-history -->
          </div><!-- col -->
-          <div class="col-md-5 col-md-7 col-lg-5" style="padding-left: 0;">
+          <div class="col-md-5 col-md-7 col-lg-5 usrbox">
           <div class="chart-box-wrap">
             <div class="card">
               <div class="row">
-                <div class="col-md-2" style="padding-right: 0px;padding-left: 25px;">
+                <div class="col-md-2 col-sm-2" style="padding-right: 0px;padding-left: 25px;">
                 <img src="images/pf.jpeg" class="card-img" alt="img" class="img-fluid">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -287,7 +287,7 @@
                <i class="fas fa-star"></i>
                <p>Ian, R. jacob, dubai-UAE </p>
                 </div>
-                 <div class="col-md-4">
+                 <div class="col-md-4 col-sm-4">
                  <a href="#"><h5>View Profile</h5></a>
                 </div>
 
@@ -307,20 +307,20 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-md-6 col-lg-4" style="padding-left: 0px;">
+          <div class="col-md-4 col-md-6 col-lg-4 congr">
             <div class="congrate-wrap">
               <div class="card">
                 <h5>Congratulations!</h5>
                 <p>Ali Muhatdi Totah wants to chater this motor boat.</p>
               </div>
               <div class="yachit55-wrap">
-                <div class="card" style="padding-left: 0;padding-right: 0;">
+                <div class="card" id="c-bdr">
                  <div class="card mb-3">
   <div class="row no-gutters">
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-4">
       <img src="images/c1.jpg" class="card-img" alt="img" class="img-fluid">
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 col-sm-8">
       <div class="card-body" style="padding-right: 0px;padding-left: 10px">
         <h6 class="card-title">Motor yacht 55' awesome charte..</h6>
         <p><i class="fas fa-map-marker-alt"></i> Dubai, UAE</p>
@@ -330,25 +330,25 @@
   </div>
   <div class="card" style="margin-top: -27px;">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 col-sm-6">
       <li><b>Check-in</b></li>
       <li class="date-31">31 Jan 2020</li>
       <li>10:00:00 UTC</li>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 col-sm-6">
       <li><b>Check-out</b></li>
       <li class="date-31">31 Feb 2020</li>
       <li>17:00:00 UTC</li>
     </div>
-    <p class="paragraph"><b>The request was made on an hourly basis.</b>
-Request sent on: <b>18 Jan 2020 | 10:29:12 UTC</b>
+    <p class="paragraph"><b>The request was made on an hourly basis.</b><br>
+Request sent on: <b>18 Jan 2020 | 10:29:12 UTC</b><br>
 10 Person, 1 day, 7:00:00 hours, 4042.51 AED
 </p>
   </div>
   </div> <!-- card -->
   <div class="card" style="margin-top: 6px;">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 col-sm-6">
       <li>Total Hour</li>
       <li>Summary</li>
        <li class="total-a">SubTotal Amount</li>
@@ -357,7 +357,7 @@ Request sent on: <b>18 Jan 2020 | 10:29:12 UTC</b>
       <li class="total-b">Your Earning</li>
      
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 col-sm-6">
       <li>7 Hour</li>
        <li>7 . 700.02 AED</li>
        <li class="total-a">4900.01 AED</li>
@@ -370,7 +370,7 @@ Request sent on: <b>18 Jan 2020 | 10:29:12 UTC</b>
       <div class="col-md-12">
         <div class="pre-btn">
          <button type="button" class="btn btn-primary btn-sm">Pre-Accept</button>
-          <button type="button" class="btn btn-danger btn-sm">Pre-Accept</button>
+          <button type="button" class="btn btn-danger btn-sm">Decline</button>
        </div>
      </div>
         <!--  <div class="col-md-6">
@@ -379,14 +379,12 @@ Request sent on: <b>18 Jan 2020 | 10:29:12 UTC</b>
        </div>
       </div> -->
     </div>
-
-  </div> <!-- card -->
-  <li class="respond">Respond in 24 hours to maintain your response rate</li>
- <!-- <a href="#"> <h5 class="create-o">Create a Personalized Offer >></h5></a> -->
- <!-- Button trigger modal -->
+<li class="respond">Respond in 24 hours to maintain your response rate</li>
 <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal" style="width: auto;">
   Create a Personalized Offer >>
 </button>
+  </div> <!-- card -->
+  
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
