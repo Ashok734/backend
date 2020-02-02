@@ -2658,6 +2658,7 @@ font-weight: 600;
    margin-top: 6px;
 }
 }
+
 /*chartering*/
 .select-frm h6{
 	padding-top: 8px;
@@ -2671,6 +2672,18 @@ font-weight: 600;
 }
 .select-frm .card {
 	padding-bottom: 0px;
+}
+@media(max-width: 992px){
+	.select-frm h6 {
+		font-weight: normal;
+		font-size: 12px;
+	}
+}
+@media(max-width: 768px){
+	.select-frm h6 {
+		font-weight: normal;
+		font-size: 12px!important;
+	}
 }
 /*my whislist*/
 #here-few img{
@@ -2755,8 +2768,8 @@ font-weight: 600;
 
 /*REPORTINGS*/
 #reporting-wrapper .nav-link {
-	font-size: 20px;
-	font-weight: 700;
+	font-size: 15px;
+	font-weight: 600;
 	color: #626264;
 	text-transform: uppercase;
 }
@@ -3020,7 +3033,7 @@ font-weight: 600;
 	}
 }
 #list-index img {
-	width: 50%!important;
+	width: 100%!important;
 	height: 100px!important;
 }
 @media (max-width: 1200px){
@@ -3042,16 +3055,16 @@ font-weight: 600;
 .eaghtmain {
 	margin-top: -200px!important;
 }
-h1, h2, h3, h4, h6{
+#wrapper-user h1, h2, h3, h4, h6{
 	font-size: 12px!important;
 }
-span {
+#wrapper-user span {
 	font-size: 8px !important;
 }
-p{
+#wrapper-user p{
 	font-size: 11px !important;
 }
-li {
+#wrapper-user li {
 	font-size: 10px!important;
 }
 .btn {
@@ -3068,16 +3081,16 @@ li {
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
-h1, h2, h3, h4, h6{
+#user-tabs-wrapper h1, h2, h3, h4, h6{
 	font-size: 14px!important;
 }
-span {
+#user-tabs-wrapper span {
 	font-size: 13px !important;
 }
-p{
+#user-tabs-wrapper p{
 	font-size: 13px !important;
 }
-li {
+#user-tabs-wrapper li {
 	font-size: 12px!important;
 }
 }
